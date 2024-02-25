@@ -1,0 +1,56 @@
+F:\anaconda3\envs\py38\lib\site-packages\torch\nn\modules\rnn.py:812: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:982.)
+  result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+gear1:
+Test Loss per batch:0.0032026986591517925
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:66.0,FP:0.0,TN:139.0,FN:0.0
+-------------------------------------------
+gear2:
+Test Loss per batch:0.004652388859540224
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:65.0,FP:0.0,TN:140.0,FN:0.0
+-------------------------------------------
+gear3:
+Test Loss per batch:0.052118975669145584
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:64.0,FP:0.0,TN:141.0,FN:0.0
+-------------------------------------------
+gear5:
+Test Loss per batch:0.0008701781625859439
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:62.0,FP:0.0,TN:143.0,FN:0.0
+-------------------------------------------
+gear6:
+Test Loss per batch:0.0034390478394925594
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:63.0,FP:0.0,TN:142.0,FN:0.0
+-------------------------------------------
+gear7:
+Test Loss per batch:0.0011309877736493945
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:67.0,FP:0.0,TN:138.0,FN:0.0
+-------------------------------------------
+gear8:
+Test Loss per batch:0.003771526040509343
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:60.0,FP:0.0,TN:145.0,FN:0.0
+-------------------------------------------
+gear9:
+Test Loss per batch:1.8190698623657227
+accuracy:0.6341463414634146,recall:0.0,precision:0.0,f1:0.0
+FPR:0.07801418439716312,FNR:1.0
+TP:0.0,FP:11.0,TN:130.0,FN:64.0
+-------------------------------------------
+gear10:
+Test Loss per batch:0.0028400984592735767
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:63.0,FP:0.0,TN:142.0,FN:0.0
+-------------------------------------------

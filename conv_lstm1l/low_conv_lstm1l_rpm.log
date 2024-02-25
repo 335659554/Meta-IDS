@@ -1,0 +1,62 @@
+F:\anaconda3\envs\py38\lib\site-packages\torch\nn\modules\rnn.py:812: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:982.)
+  result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+rpm1:
+Test Loss per batch:0.004167021717876196
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:1.0,FP:0.0,TN:1708.0,FN:0.0
+-------------------------------------------
+rpm2:
+Test Loss per batch:0.004070143215358257
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:1.0,FP:0.0,TN:4880.0,FN:0.0
+-------------------------------------------
+rpm3:
+Test Loss per batch:0.00381420343182981
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:1.0,FP:0.0,TN:2955.0,FN:0.0
+-------------------------------------------
+rpm4:
+Test Loss per batch:0.005325972568243742
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:700.0,FP:0.0,TN:4901.0,FN:0.0
+-------------------------------------------
+rpm5:
+Test Loss per batch:0.005440373905003071
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:479.0,FP:0.0,TN:3354.0,FN:0.0
+-------------------------------------------
+rpm6:
+Test Loss per batch:0.0039190929383039474
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:1.0,FP:0.0,TN:5329.0,FN:0.0
+-------------------------------------------
+rpm7:
+Test Loss per batch:0.005142076810201009
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:244404.0,FP:0.0,TN:1710829.0,FN:0.0
+-------------------------------------------
+rpm8:
+Test Loss per batch:0.004807343706488609
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:593.0,FP:0.0,TN:4152.0,FN:0.0
+-------------------------------------------
+rpm9:
+Test Loss per batch:0.005133521376234113
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:268486.0,FP:0.0,TN:1879403.0,FN:0.0
+-------------------------------------------
+rpm10:
+Test Loss per batch:0.004117750562727451
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:1.0,FP:0.0,TN:4747.0,FN:0.0
+-------------------------------------------

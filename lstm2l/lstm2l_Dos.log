@@ -1,0 +1,62 @@
+F:\anaconda3\envs\py38\lib\site-packages\torch\nn\modules\rnn.py:812: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:982.)
+  result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+Dos1:
+Test Loss per batch:0.0010591872269287705
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:108.0,FP:0.0,TN:97.0,FN:0.0
+-------------------------------------------
+Dos2:
+Test Loss per batch:0.001356820110231638
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:114.0,FP:0.0,TN:91.0,FN:0.0
+-------------------------------------------
+Dos3:
+Test Loss per batch:0.0013913122238591313
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:119.0,FP:0.0,TN:86.0,FN:0.0
+-------------------------------------------
+Dos4:
+Test Loss per batch:0.0020520826801657677
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:112.0,FP:0.0,TN:93.0,FN:0.0
+-------------------------------------------
+Dos5:
+Test Loss per batch:0.0007303251186385751
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:52.0,FP:0.0,TN:153.0,FN:0.0
+-------------------------------------------
+Dos6:
+Test Loss per batch:0.0011318663600832224
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:108.0,FP:0.0,TN:97.0,FN:0.0
+-------------------------------------------
+Dos7:
+Test Loss per batch:0.0011535295052453876
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:117.0,FP:0.0,TN:88.0,FN:0.0
+-------------------------------------------
+Dos8:
+Test Loss per batch:0.0012345885625109076
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:106.0,FP:0.0,TN:99.0,FN:0.0
+-------------------------------------------
+Dos9:
+Test Loss per batch:0.001167832175269723
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:125.0,FP:0.0,TN:80.0,FN:0.0
+-------------------------------------------
+Dos10:
+Test Loss per batch:0.0011298240860924125
+accuracy:1.0,recall:1.0,precision:1.0,f1:1.0
+FPR:0.0,FNR:0.0
+TP:106.0,FP:0.0,TN:99.0,FN:0.0
+-------------------------------------------

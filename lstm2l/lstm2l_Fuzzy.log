@@ -1,0 +1,62 @@
+F:\anaconda3\envs\py38\lib\site-packages\torch\nn\modules\rnn.py:812: UserWarning: RNN module weights are not part of single contiguous chunk of memory. This means they need to be compacted at every call, possibly greatly increasing memory usage. To compact weights again call flatten_parameters(). (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\cudnn\RNN.cpp:982.)
+  result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+Fuzzy1:
+Test Loss per batch:0.2941858172416687
+accuracy:0.9024390243902439,recall:0.8148148148148148,precision:1.0,f1:0.8979591836734694
+FPR:0.0,FNR:0.18518518518518517
+TP:88.0,FP:0.0,TN:97.0,FN:20.0
+-------------------------------------------
+Fuzzy2:
+Test Loss per batch:1.5232608318328857
+accuracy:0.6634146341463415,recall:0.09210526315789473,precision:1.0,f1:0.1686746987951807
+FPR:0.0,FNR:0.9078947368421053
+TP:7.0,FP:0.0,TN:129.0,FN:69.0
+-------------------------------------------
+Fuzzy3:
+Test Loss per batch:1.4160388708114624
+accuracy:0.6926829268292682,recall:0.14864864864864866,precision:1.0,f1:0.25882352941176473
+FPR:0.0,FNR:0.8513513513513513
+TP:11.0,FP:0.0,TN:131.0,FN:63.0
+-------------------------------------------
+Fuzzy4:
+Test Loss per batch:1.5717588663101196
+accuracy:0.7219512195121951,recall:0.13636363636363635,precision:1.0,f1:0.24
+FPR:0.0,FNR:0.8636363636363636
+TP:9.0,FP:0.0,TN:139.0,FN:57.0
+-------------------------------------------
+Fuzzy5:
+Test Loss per batch:0.6482217311859131
+accuracy:0.8,recall:0.4142857142857143,precision:1.0,f1:0.5858585858585859
+FPR:0.0,FNR:0.5857142857142857
+TP:29.0,FP:0.0,TN:135.0,FN:41.0
+-------------------------------------------
+Fuzzy6:
+Test Loss per batch:0.05220974609255791
+accuracy:0.9804878048780488,recall:0.3333333333333333,precision:1.0,f1:0.5
+FPR:0.0,FNR:0.6666666666666666
+TP:2.0,FP:0.0,TN:199.0,FN:4.0
+-------------------------------------------
+Fuzzy7:
+Test Loss per batch:1.3400195837020874
+accuracy:0.7024390243902439,recall:0.11594202898550725,precision:1.0,f1:0.2077922077922078
+FPR:0.0,FNR:0.8840579710144928
+TP:8.0,FP:0.0,TN:136.0,FN:61.0
+-------------------------------------------
+Fuzzy8:
+Test Loss per batch:0.7751616835594177
+accuracy:0.7268292682926829,recall:0.38461538461538464,precision:1.0,f1:0.5555555555555556
+FPR:0.0,FNR:0.6153846153846154
+TP:35.0,FP:0.0,TN:114.0,FN:56.0
+-------------------------------------------
+Fuzzy9:
+Test Loss per batch:1.8736155033111572
+accuracy:0.6634146341463415,recall:0.06756756756756757,precision:1.0,f1:0.12658227848101267
+FPR:0.0,FNR:0.9324324324324325
+TP:5.0,FP:0.0,TN:131.0,FN:69.0
+-------------------------------------------
+Fuzzy10:
+Test Loss per batch:1.0413994789123535
+accuracy:0.7170731707317073,recall:0.24675324675324675,precision:1.0,f1:0.3958333333333333
+FPR:0.0,FNR:0.7532467532467533
+TP:19.0,FP:0.0,TN:128.0,FN:58.0
+-------------------------------------------
